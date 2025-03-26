@@ -1,6 +1,4 @@
-import veiculo
-import locale
-import pytz
+import veiculo, locale, pytz
 from datetime import datetime
 
 class Moto(veiculo.Veiculo):

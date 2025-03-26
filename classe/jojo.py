@@ -13,7 +13,7 @@ class JoJo:
     def setNome(self, nome): self.nome = nome
     def setStand(self, stand): self.stand = stand
     def setStatusStand(self, status_stand): self.status_stand = status_stand
-     
+    # Métodos
     def ativarStand(self):
         if self.status_stand:
             print(f"{self.getStand()} já está invocado.")
